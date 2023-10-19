@@ -52,4 +52,131 @@ if __name__ == "__main__":
  print("La cantidad de carne es "+str(CantidadDeCarne)+" kilogrmos")
 ```
 
+# 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+
+
+ - RETO 6 PUNTO 4 - SIN ARGUMENTOS DEFINIDOS
+
+
+```pseudocode
+def Vueltas(*args) -> float:
+  ValorDeVueltas=((B)-((P*300)+(M*3300)+(H*350))) 
+  return ValorDeVueltas
+
+if __name__ == "__main__":
+ B: float = float(input("ingrese el valor del billete:"))
+ P: float = float(input("ingrese el numero de panes:"))
+ M: float = float(input("ingrese el numero de bolsas de leche:"))
+ H= float = float(input("ingrese el numero de huevos:"))
+ ValorDeVueltas=Vueltas(P,M,H,B)
+
+ValorDeVueltas2= (ValorDeVueltas*(-1))
+
+if ValorDeVueltas == 0:
+ print("sus vueltas son 0, por lo tanto estamos a paz y salvo")
+elif ValorDeVueltas < 0:
+ print("quedas debiendo "+str(ValorDeVueltas2))
+elif ValorDeVueltas > 0:
+ print("sus vueltas son " +str(ValorDeVueltas))
+
+```
+
+
+ - RETO 6 PUNTO 5 - SIN ARGUMENTOS DEFINIDOS
+
+
+```pseudocode
+def CalcularPrestamos(*args) -> float:
+  valortotaldelprestamo= (c*((1+i/100)**n))
+  return valortotaldelprestamo
+
+if __name__ == "__main__":
+ c: float = float(input("Ingrese el valor del prestamo:"))
+ i: float = float(input("Ingrese la tasa de intereses:"))
+ n: float = float(input("Ingrese el tiempo es meses:"))
+ valortotaldelprestamos= CalcularPrestamos(c,i,n)
+ print("el valor final del prestamos es "+str(valortotaldelprestamos))
+```
+
+
+ - RETO 6 PUNTO 6 - SIN ARGUMENTOS DEFINIDOS
+
+
+```pseudocode
+def CalcularContagios(*args) -> float:
+  NumeroDeContagios=(C*(2**D))
+  return NumeroDeContagios
+
+if __name__ == "__main__":
+ C: float = float(input("Ingrese el número de contagios actuales:"))
+ D: float = float(input("Ingrese el número de dias:"))
+ NumeroDeContagios = CalcularContagios(C,D)
+ print("el número de contadios después de "  + str(D) +  " dia(s) es de " + str(NumeroDeContagios))
+```
+
+
+# 3. Escriba una función recursiva para calcular la operación de la potencia.
+
+
+```pseudocode
+def potencia(x,a)->float:
+    if a == 0:
+       return 1
+    else:
+       return x * potencia(x,a-1)
+
+if __name__ == "__main__":
+   x:float=float(input("ingrese un numero como base:"))
+   a:float=float(input("ingrese un numero como exponente:"))
+   
+   lapotenciacion =potencia(x,a)
+   print(f"{x} elevado al exponente {a} es {lapotenciacion}") 
+```
+
+
+
+# 4. Utilice la siguiente plantilla de code para contar el tiempo:
+
+ - PLANTILLA:
+
+
+```pseudocode
+import time
+
+start_time = time.time()
+# instrucciones sobre las cuales se quiere medir tiempo de ejecución
+end_time = time.time()
+
+timer = end_time - start_time
+print(timer)
+```
+
+
+
+```pseudocode
+import time
+
+def fibonaccitomasRECURSIVOQUENUNCA(x):
+    if x <= 0:
+        return 0
+    elif x ==1:
+        return 1
+    else:
+        return fibonaccitomasRECURSIVOQUENUNCA(x-1) + fibonaccitomasRECURSIVOQUENUNCA(x-2)
+    
+if __name__ == "__main__":
+    x:int=int(input("ingrese el numero x:"))
+
+    start_time = time.time()
+    resultado = fibonaccitomasRECURSIVOQUENUNCA(x)
+    end_time = time.time()
+    timer = end_time - start_time
+
+    print(f"la sucesion de fibonacci {x} por recursion es {resultado}")
+    print(f"el timepo es {timer}") 
+```
+
+
+
+
    
