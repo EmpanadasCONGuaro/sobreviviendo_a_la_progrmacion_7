@@ -188,4 +188,4 @@ if __name__ == "__main__":
 # 6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
 
 
-LINK: 
+LINK: https://www.linkedin.com/in/david-felipe-valencia-yague-615409297/
