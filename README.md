@@ -177,6 +177,15 @@ if __name__ == "__main__":
 ```
 
 
+# 5. Crear cuenta en stackoverflow y adjuntar imagen en el repo
 
 
-   
+
+   ![image](https://github.com/EmpanadasCONGuaro/sobreviviendo_a_la_progrmacion_7/assets/142174506/fadc3d8f-013f-48da-8139-fdc773fc5a56)
+
+
+
+# 6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
+
+
+LINK: 
